@@ -1,0 +1,25 @@
+body {
+  text-align: center;
+  text-decoration-line: none;
+  background-color: lavenderblush;
+}
+main {
+  display: grid;
+  grid-template-columns: 30vw 30vw 30vw;
+  /* grid-template-rows: auto; */
+  grid-auto-rows: 1fr;
+  gap: 20px 20px;
+  margin: 20px;
+}
+
+.movie-card-container {
+  display: block;
+  height: 100%;
+  width: 100%;
+}
+
+.movie-image {
+  position: relative;
+  height: 80%;
+  width: 95%;
+}
